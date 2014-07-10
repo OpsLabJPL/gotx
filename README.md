@@ -17,9 +17,9 @@ Here is a very simplified high-level example of how to use this package:
 ```
 import (
 	"fmt"
-	"github.com/opslabjpl/gotx.git/tx"
-	txFile "github.com/opslabjpl/gotx.git/tx/file"
-	txS3 "github.com/opslabjpl/gotx.git/tx/s3"
+	"github.com/opslabjpl/gotx/tx"
+	txFile "github.com/opslabjpl/gotx/tx/file"
+	txS3 "github.com/opslabjpl/gotx/tx/s3"
 )
 // Create a new transfer manager with 32 worker threads, but only one reader thread (serial reads).
 txMgr := tx.TxMgr(32, true, false)

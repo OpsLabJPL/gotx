@@ -3,9 +3,9 @@ package s3
 import (
 	"bytes"
 	"fmt"
-	"github.com/opslabjpl/goamz.git/s3"
-	progressPkg "github.com/opslabjpl/gotx.git/progress"
-	"github.com/opslabjpl/gotx.git/tx"
+	"github.com/opslabjpl/goamz/s3"
+	progressPkg "github.com/opslabjpl/gotx/progress"
+	"github.com/opslabjpl/gotx/tx"
 	"io"
 	"io/ioutil"
 	"net/http"
